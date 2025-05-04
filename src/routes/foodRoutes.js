@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const jwt = require('jsonwebtoken');
-const FatSecret = require('../FatSecret');
+const FatSecret = require('../FastSecret');
 const fatSecret = new FatSecret();
 const DayPlan = require("../models/DayPlan");
 const moment = require('moment');
